@@ -109,6 +109,13 @@
                             "samples": [
                                 "{startdate}"
                             ]
+                        },
+                        {
+                            "name": "phone_number",
+                            "type": "AMAZON.PhoneNumber",
+                            "samples": [
+                                "{phone_number}"
+                            ]
                         }
                     ],
                     "samples": [
@@ -1346,6 +1353,15 @@
                             "prompts": {
                                 "elicitation": "Elicit.Slot.223232556997.474082483914"
                             }
+                        },
+                        {
+                            "name": "phone_number",
+                            "type": "AMAZON.PhoneNumber",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1484508749897.1042341994373"
+                            }
                         }
                     ]
                 }
@@ -1431,6 +1447,15 @@
                     {
                         "type": "PlainText",
                         "value": "When do you want to start the reminders?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1484508749897.1042341994373",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What phone number should we send the SMS reminder to?"
                     }
                 ]
             }
