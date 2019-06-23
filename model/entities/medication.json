@@ -1,0 +1,9 @@
+{
+  "id": "3e2369f7-d491-4179-8ca9-dbc64fcfe6c0",
+  "name": "medication",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

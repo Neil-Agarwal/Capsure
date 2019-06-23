@@ -1,0 +1,1370 @@
+[
+  {
+    "value": "Acetaminophen",
+    "synonyms": [
+      "Acetaminophen"
+    ]
+  },
+  {
+    "value": "Acid",
+    "synonyms": [
+      "Acid"
+    ]
+  },
+  {
+    "value": "Acyclovir",
+    "synonyms": [
+      "Acyclovir"
+    ]
+  },
+  {
+    "value": "Adalimumab",
+    "synonyms": [
+      "Adalimumab"
+    ]
+  },
+  {
+    "value": "Albuterol",
+    "synonyms": [
+      "Albuterol"
+    ]
+  },
+  {
+    "value": "Alendronate",
+    "synonyms": [
+      "Alendronate"
+    ]
+  },
+  {
+    "value": "Allopurinol",
+    "synonyms": [
+      "Allopurinol"
+    ]
+  },
+  {
+    "value": "Alprazolam",
+    "synonyms": [
+      "Alprazolam"
+    ]
+  },
+  {
+    "value": "Amiodarone",
+    "synonyms": [
+      "Amiodarone"
+    ]
+  },
+  {
+    "value": "Amitriptyline",
+    "synonyms": [
+      "Amitriptyline"
+    ]
+  },
+  {
+    "value": "Amlodipine",
+    "synonyms": [
+      "Amlodipine"
+    ]
+  },
+  {
+    "value": "Amoxicillin",
+    "synonyms": [
+      "Amoxicillin"
+    ]
+  },
+  {
+    "value": "Amphetamine",
+    "synonyms": [
+      "Amphetamine"
+    ]
+  },
+  {
+    "value": "Apixaban",
+    "synonyms": [
+      "Apixaban"
+    ]
+  },
+  {
+    "value": "Aripiprazole",
+    "synonyms": [
+      "Aripiprazole"
+    ]
+  },
+  {
+    "value": "Aspart",
+    "synonyms": [
+      "Aspart"
+    ]
+  },
+  {
+    "value": "Aspartate",
+    "synonyms": [
+      "Aspartate"
+    ]
+  },
+  {
+    "value": "Aspirin",
+    "synonyms": [
+      "Aspirin"
+    ]
+  },
+  {
+    "value": "Atenolol",
+    "synonyms": [
+      "Atenolol"
+    ]
+  },
+  {
+    "value": "Atorvastatin",
+    "synonyms": [
+      "Atorvastatin"
+    ]
+  },
+  {
+    "value": "Azithromycin",
+    "synonyms": [
+      "Azithromycin"
+    ]
+  },
+  {
+    "value": "Bacitracin",
+    "synonyms": [
+      "Bacitracin"
+    ]
+  },
+  {
+    "value": "Baclofen",
+    "synonyms": [
+      "Baclofen"
+    ]
+  },
+  {
+    "value": "Beclomethasone",
+    "synonyms": [
+      "Beclomethasone"
+    ]
+  },
+  {
+    "value": "Benazepril",
+    "synonyms": [
+      "Benazepril"
+    ]
+  },
+  {
+    "value": "Benzonatate",
+    "synonyms": [
+      "Benzonatate"
+    ]
+  },
+  {
+    "value": "Besylate",
+    "synonyms": [
+      "Besylate"
+    ]
+  },
+  {
+    "value": "Bisulfate",
+    "synonyms": [
+      "Bisulfate"
+    ]
+  },
+  {
+    "value": "Bitartrate",
+    "synonyms": [
+      "Bitartrate"
+    ]
+  },
+  {
+    "value": "Brimonidine",
+    "synonyms": [
+      "Brimonidine"
+    ]
+  },
+  {
+    "value": "Bromide",
+    "synonyms": [
+      "Bromide"
+    ]
+  },
+  {
+    "value": "Budesonide",
+    "synonyms": [
+      "Budesonide"
+    ]
+  },
+  {
+    "value": "Bupropion",
+    "synonyms": [
+      "Bupropion"
+    ]
+  },
+  {
+    "value": "Buspirone",
+    "synonyms": [
+      "Buspirone"
+    ]
+  },
+  {
+    "value": "Calcium",
+    "synonyms": [
+      "Calcium"
+    ]
+  },
+  {
+    "value": "Canagliflozin",
+    "synonyms": [
+      "Canagliflozin"
+    ]
+  },
+  {
+    "value": "Carbamazepine",
+    "synonyms": [
+      "Carbamazepine"
+    ]
+  },
+  {
+    "value": "Carbidopa",
+    "synonyms": [
+      "Carbidopa"
+    ]
+  },
+  {
+    "value": "Carisoprodol",
+    "synonyms": [
+      "Carisoprodol"
+    ]
+  },
+  {
+    "value": "Carvedilol",
+    "synonyms": [
+      "Carvedilol"
+    ]
+  },
+  {
+    "value": "Celecoxib",
+    "synonyms": [
+      "Celecoxib"
+    ]
+  },
+  {
+    "value": "Cephalexin",
+    "synonyms": [
+      "Cephalexin"
+    ]
+  },
+  {
+    "value": "Cetirizine",
+    "synonyms": [
+      "Cetirizine"
+    ]
+  },
+  {
+    "value": "Chlorthalidone",
+    "synonyms": [
+      "Chlorthalidone"
+    ]
+  },
+  {
+    "value": "Cholecalciferol",
+    "synonyms": [
+      "Cholecalciferol"
+    ]
+  },
+  {
+    "value": "Ciprofloxacin",
+    "synonyms": [
+      "Ciprofloxacin"
+    ]
+  },
+  {
+    "value": "Citalopram",
+    "synonyms": [
+      "Citalopram"
+    ]
+  },
+  {
+    "value": "Clavulanate",
+    "synonyms": [
+      "Clavulanate"
+    ]
+  },
+  {
+    "value": "Clindamycin",
+    "synonyms": [
+      "Clindamycin"
+    ]
+  },
+  {
+    "value": "Clobetasol",
+    "synonyms": [
+      "Clobetasol"
+    ]
+  },
+  {
+    "value": "Clonazepam",
+    "synonyms": [
+      "Clonazepam"
+    ]
+  },
+  {
+    "value": "Clonidine",
+    "synonyms": [
+      "Clonidine"
+    ]
+  },
+  {
+    "value": "Clopidogrel",
+    "synonyms": [
+      "Clopidogrel"
+    ]
+  },
+  {
+    "value": "Conjugated",
+    "synonyms": [
+      "Conjugated"
+    ]
+  },
+  {
+    "value": "Cyanocobalamin",
+    "synonyms": [
+      "Cyanocobalamin"
+    ]
+  },
+  {
+    "value": "Cyclobenzaprine",
+    "synonyms": [
+      "Cyclobenzaprine"
+    ]
+  },
+  {
+    "value": "Desogestrel",
+    "synonyms": [
+      "Desogestrel"
+    ]
+  },
+  {
+    "value": "Detemir",
+    "synonyms": [
+      "Detemir"
+    ]
+  },
+  {
+    "value": "Dexlansoprazole",
+    "synonyms": [
+      "Dexlansoprazole"
+    ]
+  },
+  {
+    "value": "Dextroamphetamine",
+    "synonyms": [
+      "Dextroamphetamine"
+    ]
+  },
+  {
+    "value": "Diazepam",
+    "synonyms": [
+      "Diazepam"
+    ]
+  },
+  {
+    "value": "Diclofenac",
+    "synonyms": [
+      "Diclofenac"
+    ]
+  },
+  {
+    "value": "Dicyclomine",
+    "synonyms": [
+      "Dicyclomine"
+    ]
+  },
+  {
+    "value": "Digoxin",
+    "synonyms": [
+      "Digoxin"
+    ]
+  },
+  {
+    "value": "Dihydrochloride",
+    "synonyms": [
+      "Dihydrochloride"
+    ]
+  },
+  {
+    "value": "Diltiazem",
+    "synonyms": [
+      "Diltiazem"
+    ]
+  },
+  {
+    "value": "Dimesylate",
+    "synonyms": [
+      "Dimesylate"
+    ]
+  },
+  {
+    "value": "Divalproex",
+    "synonyms": [
+      "Divalproex"
+    ]
+  },
+  {
+    "value": "Docusate",
+    "synonyms": [
+      "Docusate"
+    ]
+  },
+  {
+    "value": "Donepezil",
+    "synonyms": [
+      "Donepezil"
+    ]
+  },
+  {
+    "value": "Dorzolamide",
+    "synonyms": [
+      "Dorzolamide"
+    ]
+  },
+  {
+    "value": "Doxazosin",
+    "synonyms": [
+      "Doxazosin"
+    ]
+  },
+  {
+    "value": "Doxycycline",
+    "synonyms": [
+      "Doxycycline"
+    ]
+  },
+  {
+    "value": "Drospirenone",
+    "synonyms": [
+      "Drospirenone"
+    ]
+  },
+  {
+    "value": "Duloxetine",
+    "synonyms": [
+      "Duloxetine"
+    ]
+  },
+  {
+    "value": "Enalapril",
+    "synonyms": [
+      "Enalapril"
+    ]
+  },
+  {
+    "value": "Ergocalciferol",
+    "synonyms": [
+      "Ergocalciferol"
+    ]
+  },
+  {
+    "value": "Escitalopram",
+    "synonyms": [
+      "Escitalopram"
+    ]
+  },
+  {
+    "value": "Esomeprazole",
+    "synonyms": [
+      "Esomeprazole"
+    ]
+  },
+  {
+    "value": "Esters",
+    "synonyms": [
+      "Esters"
+    ]
+  },
+  {
+    "value": "Estradiol",
+    "synonyms": [
+      "Estradiol"
+    ]
+  },
+  {
+    "value": "Estrogens",
+    "synonyms": [
+      "Estrogens"
+    ]
+  },
+  {
+    "value": "Ethinyl",
+    "synonyms": [
+      "Ethinyl"
+    ]
+  },
+  {
+    "value": "Ethyl",
+    "synonyms": [
+      "Ethyl"
+    ]
+  },
+  {
+    "value": "Ezetimibe",
+    "synonyms": [
+      "Ezetimibe"
+    ]
+  },
+  {
+    "value": "Famotidine",
+    "synonyms": [
+      "Famotidine"
+    ]
+  },
+  {
+    "value": "Fenofibrate",
+    "synonyms": [
+      "Fenofibrate"
+    ]
+  },
+  {
+    "value": "Ferrous",
+    "synonyms": [
+      "Ferrous"
+    ]
+  },
+  {
+    "value": "Finasteride",
+    "synonyms": [
+      "Finasteride"
+    ]
+  },
+  {
+    "value": "Fluconazole",
+    "synonyms": [
+      "Fluconazole"
+    ]
+  },
+  {
+    "value": "Fluoxetine",
+    "synonyms": [
+      "Fluoxetine"
+    ]
+  },
+  {
+    "value": "Fluticasone",
+    "synonyms": [
+      "Fluticasone"
+    ]
+  },
+  {
+    "value": "Folic",
+    "synonyms": [
+      "Folic"
+    ]
+  },
+  {
+    "value": "Formoterol",
+    "synonyms": [
+      "Formoterol"
+    ]
+  },
+  {
+    "value": "Fumarate",
+    "synonyms": [
+      "Fumarate"
+    ]
+  },
+  {
+    "value": "Furosemide",
+    "synonyms": [
+      "Furosemide"
+    ]
+  },
+  {
+    "value": "Gabapentin",
+    "synonyms": [
+      "Gabapentin"
+    ]
+  },
+  {
+    "value": "Gemfibrozil",
+    "synonyms": [
+      "Gemfibrozil"
+    ]
+  },
+  {
+    "value": "Glargine",
+    "synonyms": [
+      "Glargine"
+    ]
+  },
+  {
+    "value": "Glimepiride",
+    "synonyms": [
+      "Glimepiride"
+    ]
+  },
+  {
+    "value": "Glipizide",
+    "synonyms": [
+      "Glipizide"
+    ]
+  },
+  {
+    "value": "Glyburide",
+    "synonyms": [
+      "Glyburide"
+    ]
+  },
+  {
+    "value": "Glycol",
+    "synonyms": [
+      "Glycol"
+    ]
+  },
+  {
+    "value": "Guanfacine",
+    "synonyms": [
+      "Guanfacine"
+    ]
+  },
+  {
+    "value": "Human",
+    "synonyms": [
+      "Human"
+    ]
+  },
+  {
+    "value": "Hydralazine",
+    "synonyms": [
+      "Hydralazine"
+    ]
+  },
+  {
+    "value": "Hydrochloride",
+    "synonyms": [
+      "Hydrochloride"
+    ]
+  },
+  {
+    "value": "Hydrochlorothiazide",
+    "synonyms": [
+      "Hydrochlorothiazide"
+    ]
+  },
+  {
+    "value": "Hydrocodone",
+    "synonyms": [
+      "Hydrocodone"
+    ]
+  },
+  {
+    "value": "Hydrocortisone",
+    "synonyms": [
+      "Hydrocortisone"
+    ]
+  },
+  {
+    "value": "Hydroxychloroquine",
+    "synonyms": [
+      "Hydroxychloroquine"
+    ]
+  },
+  {
+    "value": "Hydroxyzine",
+    "synonyms": [
+      "Hydroxyzine"
+    ]
+  },
+  {
+    "value": "Ibuprofen",
+    "synonyms": [
+      "Ibuprofen"
+    ]
+  },
+  {
+    "value": "Insulin",
+    "synonyms": [
+      "Insulin"
+    ]
+  },
+  {
+    "value": "Ipratropium",
+    "synonyms": [
+      "Ipratropium"
+    ]
+  },
+  {
+    "value": "Irbesartan",
+    "synonyms": [
+      "Irbesartan"
+    ]
+  },
+  {
+    "value": "Isosorbide",
+    "synonyms": [
+      "Isosorbide"
+    ]
+  },
+  {
+    "value": "Lamotrigine",
+    "synonyms": [
+      "Lamotrigine"
+    ]
+  },
+  {
+    "value": "Lansoprazole",
+    "synonyms": [
+      "Lansoprazole"
+    ]
+  },
+  {
+    "value": "Latanoprost",
+    "synonyms": [
+      "Latanoprost"
+    ]
+  },
+  {
+    "value": "Levetiracetam",
+    "synonyms": [
+      "Levetiracetam"
+    ]
+  },
+  {
+    "value": "Levocetirizine",
+    "synonyms": [
+      "Levocetirizine"
+    ]
+  },
+  {
+    "value": "Levodopa",
+    "synonyms": [
+      "Levodopa"
+    ]
+  },
+  {
+    "value": "Levofloxacin",
+    "synonyms": [
+      "Levofloxacin"
+    ]
+  },
+  {
+    "value": "Levonorgestrel",
+    "synonyms": [
+      "Levonorgestrel"
+    ]
+  },
+  {
+    "value": "Levothyroxine",
+    "synonyms": [
+      "Levothyroxine"
+    ]
+  },
+  {
+    "value": "Linagliptin",
+    "synonyms": [
+      "Linagliptin"
+    ]
+  },
+  {
+    "value": "Liraglutide",
+    "synonyms": [
+      "Liraglutide"
+    ]
+  },
+  {
+    "value": "Lisdexamfetamine",
+    "synonyms": [
+      "Lisdexamfetamine"
+    ]
+  },
+  {
+    "value": "Lisinopril",
+    "synonyms": [
+      "Lisinopril"
+    ]
+  },
+  {
+    "value": "Lispro",
+    "synonyms": [
+      "Lispro"
+    ]
+  },
+  {
+    "value": "Loratadine",
+    "synonyms": [
+      "Loratadine"
+    ]
+  },
+  {
+    "value": "Lorazepam",
+    "synonyms": [
+      "Lorazepam"
+    ]
+  },
+  {
+    "value": "Losartan",
+    "synonyms": [
+      "Losartan"
+    ]
+  },
+  {
+    "value": "Lovastatin",
+    "synonyms": [
+      "Lovastatin"
+    ]
+  },
+  {
+    "value": "Magnesium",
+    "synonyms": [
+      "Magnesium"
+    ]
+  },
+  {
+    "value": "Maleate",
+    "synonyms": [
+      "Maleate"
+    ]
+  },
+  {
+    "value": "Meclizine",
+    "synonyms": [
+      "Meclizine"
+    ]
+  },
+  {
+    "value": "Medoxomil",
+    "synonyms": [
+      "Medoxomil"
+    ]
+  },
+  {
+    "value": "Meloxicam",
+    "synonyms": [
+      "Meloxicam"
+    ]
+  },
+  {
+    "value": "Memantine",
+    "synonyms": [
+      "Memantine"
+    ]
+  },
+  {
+    "value": "Mesylate",
+    "synonyms": [
+      "Mesylate"
+    ]
+  },
+  {
+    "value": "Metformin",
+    "synonyms": [
+      "Metformin"
+    ]
+  },
+  {
+    "value": "Methocarbamol",
+    "synonyms": [
+      "Methocarbamol"
+    ]
+  },
+  {
+    "value": "Methotrexate",
+    "synonyms": [
+      "Methotrexate"
+    ]
+  },
+  {
+    "value": "Methylcellulose",
+    "synonyms": [
+      "Methylcellulose"
+    ]
+  },
+  {
+    "value": "Methylphenidate",
+    "synonyms": [
+      "Methylphenidate"
+    ]
+  },
+  {
+    "value": "Methylprednisolone",
+    "synonyms": [
+      "Methylprednisolone"
+    ]
+  },
+  {
+    "value": "Metoprolol",
+    "synonyms": [
+      "Metoprolol"
+    ]
+  },
+  {
+    "value": "Metronidazole",
+    "synonyms": [
+      "Metronidazole"
+    ]
+  },
+  {
+    "value": "Mirtazapine",
+    "synonyms": [
+      "Mirtazapine"
+    ]
+  },
+  {
+    "value": "Mometasone",
+    "synonyms": [
+      "Mometasone"
+    ]
+  },
+  {
+    "value": "Mononitrate",
+    "synonyms": [
+      "Mononitrate"
+    ]
+  },
+  {
+    "value": "Montelukast",
+    "synonyms": [
+      "Montelukast"
+    ]
+  },
+  {
+    "value": "Morphine",
+    "synonyms": [
+      "Morphine"
+    ]
+  },
+  {
+    "value": "Mupirocin",
+    "synonyms": [
+      "Mupirocin"
+    ]
+  },
+  {
+    "value": "Naproxen",
+    "synonyms": [
+      "Naproxen"
+    ]
+  },
+  {
+    "value": "Nebivolol",
+    "synonyms": [
+      "Nebivolol"
+    ]
+  },
+  {
+    "value": "Neomycin",
+    "synonyms": [
+      "Neomycin"
+    ]
+  },
+  {
+    "value": "Nifedipine",
+    "synonyms": [
+      "Nifedipine"
+    ]
+  },
+  {
+    "value": "Nitrofurantoin",
+    "synonyms": [
+      "Nitrofurantoin"
+    ]
+  },
+  {
+    "value": "Nitroglycerin",
+    "synonyms": [
+      "Nitroglycerin"
+    ]
+  },
+  {
+    "value": "Norethindrone",
+    "synonyms": [
+      "Norethindrone"
+    ]
+  },
+  {
+    "value": "Norgestimate",
+    "synonyms": [
+      "Norgestimate"
+    ]
+  },
+  {
+    "value": "Nortriptyline",
+    "synonyms": [
+      "Nortriptyline"
+    ]
+  },
+  {
+    "value": "Olmesartan",
+    "synonyms": [
+      "Olmesartan"
+    ]
+  },
+  {
+    "value": "Omega-3-acid",
+    "synonyms": [
+      "Omega-3-acid"
+    ]
+  },
+  {
+    "value": "Omeprazole",
+    "synonyms": [
+      "Omeprazole"
+    ]
+  },
+  {
+    "value": "Ondansetron",
+    "synonyms": [
+      "Ondansetron"
+    ]
+  },
+  {
+    "value": "Oxalate",
+    "synonyms": [
+      "Oxalate"
+    ]
+  },
+  {
+    "value": "Oxybutynin",
+    "synonyms": [
+      "Oxybutynin"
+    ]
+  },
+  {
+    "value": "Oxycodone",
+    "synonyms": [
+      "Oxycodone"
+    ]
+  },
+  {
+    "value": "Pantoprazole",
+    "synonyms": [
+      "Pantoprazole"
+    ]
+  },
+  {
+    "value": "Paroxetine",
+    "synonyms": [
+      "Paroxetine"
+    ]
+  },
+  {
+    "value": "Phosphate",
+    "synonyms": [
+      "Phosphate"
+    ]
+  },
+  {
+    "value": "Pioglitazone",
+    "synonyms": [
+      "Pioglitazone"
+    ]
+  },
+  {
+    "value": "Polyethylene",
+    "synonyms": [
+      "Polyethylene"
+    ]
+  },
+  {
+    "value": "Polymyxin",
+    "synonyms": [
+      "Polymyxin"
+    ]
+  },
+  {
+    "value": "Potassium",
+    "synonyms": [
+      "Potassium"
+    ]
+  },
+  {
+    "value": "Pravastatin",
+    "synonyms": [
+      "Pravastatin"
+    ]
+  },
+  {
+    "value": "Prednisolone",
+    "synonyms": [
+      "Prednisolone"
+    ]
+  },
+  {
+    "value": "Prednisone",
+    "synonyms": [
+      "Prednisone"
+    ]
+  },
+  {
+    "value": "Pregabalin",
+    "synonyms": [
+      "Pregabalin"
+    ]
+  },
+  {
+    "value": "Progesterone",
+    "synonyms": [
+      "Progesterone"
+    ]
+  },
+  {
+    "value": "Promethazine",
+    "synonyms": [
+      "Promethazine"
+    ]
+  },
+  {
+    "value": "Propionate",
+    "synonyms": [
+      "Propionate"
+    ]
+  },
+  {
+    "value": "Propranolol",
+    "synonyms": [
+      "Propranolol"
+    ]
+  },
+  {
+    "value": "Quetiapine",
+    "synonyms": [
+      "Quetiapine"
+    ]
+  },
+  {
+    "value": "Ramipril",
+    "synonyms": [
+      "Ramipril"
+    ]
+  },
+  {
+    "value": "Ranitidine",
+    "synonyms": [
+      "Ranitidine"
+    ]
+  },
+  {
+    "value": "Risperidone",
+    "synonyms": [
+      "Risperidone"
+    ]
+  },
+  {
+    "value": "Rivaroxaban",
+    "synonyms": [
+      "Rivaroxaban"
+    ]
+  },
+  {
+    "value": "Ropinirole",
+    "synonyms": [
+      "Ropinirole"
+    ]
+  },
+  {
+    "value": "Rosuvastatin",
+    "synonyms": [
+      "Rosuvastatin"
+    ]
+  },
+  {
+    "value": "Saccharate",
+    "synonyms": [
+      "Saccharate"
+    ]
+  },
+  {
+    "value": "Salmeterol",
+    "synonyms": [
+      "Salmeterol"
+    ]
+  },
+  {
+    "value": "Sertraline",
+    "synonyms": [
+      "Sertraline"
+    ]
+  },
+  {
+    "value": "Simvastatin",
+    "synonyms": [
+      "Simvastatin"
+    ]
+  },
+  {
+    "value": "Sitagliptin",
+    "synonyms": [
+      "Sitagliptin"
+    ]
+  },
+  {
+    "value": "Sodium",
+    "synonyms": [
+      "Sodium"
+    ]
+  },
+  {
+    "value": "Solifenacin",
+    "synonyms": [
+      "Solifenacin"
+    ]
+  },
+  {
+    "value": "Spironolactone",
+    "synonyms": [
+      "Spironolactone"
+    ]
+  },
+  {
+    "value": "Succinate",
+    "synonyms": [
+      "Succinate"
+    ]
+  },
+  {
+    "value": "Sulfamethoxazole",
+    "synonyms": [
+      "Sulfamethoxazole"
+    ]
+  },
+  {
+    "value": "Sulfate",
+    "synonyms": [
+      "Sulfate"
+    ]
+  },
+  {
+    "value": "Sumatriptan",
+    "synonyms": [
+      "Sumatriptan"
+    ]
+  },
+  {
+    "value": "Tamsulosin",
+    "synonyms": [
+      "Tamsulosin"
+    ]
+  },
+  {
+    "value": "Tartrate",
+    "synonyms": [
+      "Tartrate"
+    ]
+  },
+  {
+    "value": "Temazepam",
+    "synonyms": [
+      "Temazepam"
+    ]
+  },
+  {
+    "value": "Terazosin",
+    "synonyms": [
+      "Terazosin"
+    ]
+  },
+  {
+    "value": "Testosterone",
+    "synonyms": [
+      "Testosterone"
+    ]
+  },
+  {
+    "value": "Thyroid",
+    "synonyms": [
+      "Thyroid"
+    ]
+  },
+  {
+    "value": "Timolol",
+    "synonyms": [
+      "Timolol"
+    ]
+  },
+  {
+    "value": "Tiotropium",
+    "synonyms": [
+      "Tiotropium"
+    ]
+  },
+  {
+    "value": "Tizanidine",
+    "synonyms": [
+      "Tizanidine"
+    ]
+  },
+  {
+    "value": "Topiramate",
+    "synonyms": [
+      "Topiramate"
+    ]
+  },
+  {
+    "value": "Tramadol",
+    "synonyms": [
+      "Tramadol"
+    ]
+  },
+  {
+    "value": "Trazodone",
+    "synonyms": [
+      "Trazodone"
+    ]
+  },
+  {
+    "value": "Triamcinolone",
+    "synonyms": [
+      "Triamcinolone"
+    ]
+  },
+  {
+    "value": "Triamterene",
+    "synonyms": [
+      "Triamterene"
+    ]
+  },
+  {
+    "value": "Trimethoprim",
+    "synonyms": [
+      "Trimethoprim"
+    ]
+  },
+  {
+    "value": "Valacyclovir",
+    "synonyms": [
+      "Valacyclovir"
+    ]
+  },
+  {
+    "value": "Valsartan",
+    "synonyms": [
+      "Valsartan"
+    ]
+  },
+  {
+    "value": "Venlafaxine",
+    "synonyms": [
+      "Venlafaxine"
+    ]
+  },
+  {
+    "value": "Verapamil",
+    "synonyms": [
+      "Verapamil"
+    ]
+  },
+  {
+    "value": "Warfarin",
+    "synonyms": [
+      "Warfarin"
+    ]
+  },
+  {
+    "value": "Xinafoate",
+    "synonyms": [
+      "Xinafoate"
+    ]
+  },
+  {
+    "value": "Zolpidem",
+    "synonyms": [
+      "Zolpidem"
+    ]
+  }
+]

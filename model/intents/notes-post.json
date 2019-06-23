@@ -1,0 +1,70 @@
+{
+  "id": "cf00bb14-4ebd-43b6-b4fb-b64e5fd23be5",
+  "name": "notes-post",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "477a4788-5eec-4730-bad9-f6add778d710",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Who do you want the comment to be for?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "30e7d1d9-505a-4c27-9eef-2280363984d2",
+          "required": true,
+          "dataType": "@medication",
+          "name": "medicine",
+          "value": "$medicine",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which medication are you leaving comments for?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "66ad4652-1a88-4d28-b8be-3daab6a15d44",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "$text",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s the comment?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
