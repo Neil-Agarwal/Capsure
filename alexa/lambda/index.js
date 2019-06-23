@@ -58,11 +58,19 @@ const RemindersSetHandler = {
         let interval = request.intent.slots.interval.value;
         let startdate = request.intent.slots.startdate.value;
         console.log(`interval: ${interval}, startdate: ${startdate}`);
+        
+        let phone_number = request.intent.slots.phone_number.value;
+        let body = `Hi, ${name}, this is a reminder to take your medication: ${medicine}.`;
+        
+        let smspath = 'reminder-sms';
+        let smsparams = `phone_number=${encodeURIComponent(phone_number)}&body=${encodeURIComponent(body)}`;
+        
         let path = 'reminders-set';
         let params = `name=${encodeURIComponent(name)}&medicine=${encodeURIComponent(medicine)}&interval=${encodeURIComponent(interval)}&startdate=${encodeURIComponent(startdate)}`;
         
         const response = await httpAction(path, params);
-        
+        const smsresponse = await httpAction(smspath, smsparams);
+
         return handlerInput.responseBuilder.speak(`You've successfully added the reminder for ${name} to take ${medicine} every ${interval} starting at ${startdate}. What else would you like to do?`).reprompt("What else would you like to do?").getResponse();
     }
 };
