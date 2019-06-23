@@ -1,0 +1,19 @@
+{
+	"name": "capsure",
+	"description": "Capsure",
+	"version": "1.0.0",
+	"main": "app.js",
+	"author": "",
+	"engines": {
+	  "node": "12.x"
+	},
+	"scripts": {
+	  "start": "node app.js"
+	},
+	"dependencies": {
+	  "actions-on-google": "^2.7.1",
+	  "body-parser": "^1.18.2",
+	  "express": "^4.16.2",
+	  "node-rest-client": "^3.1.0"
+	}
+  }

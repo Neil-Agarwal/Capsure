@@ -1,0 +1,1439 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "capture",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "notes_post",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.FirstName",
+                            "samples": [
+                                "{name}"
+                            ]
+                        },
+                        {
+                            "name": "medicine",
+                            "type": "medication",
+                            "samples": [
+                                "{medicine}"
+                            ]
+                        },
+                        {
+                            "name": "text",
+                            "type": "AMAZON.SearchQuery",
+                            "samples": [
+                                "{text}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "send feedback",
+                        "send feedback for {name}",
+                        "send feedback for {medicine}",
+                        "leave some feedback for {name}  {medicine}",
+                        "leave feedback for {name}  {medicine}",
+                        "leave feedback on {medicine} for {name}",
+                        "leave some feedback on {medicine} for {name}",
+                        "drop a comment on {name} {medicine}",
+                        "make a note on {name}  {medicine}",
+                        "leave a comment for {name}  {medicine}",
+                        "drop a comment on {medicine} for {name}",
+                        "leave a comment on {medicine} for {name}",
+                        "take a note on {medicine} for {name}",
+                        "make a note on {medicine} for {name}",
+                        "take a note on {medicine}",
+                        "make a note for {medicine}",
+                        "leave a comment on {medicine}",
+                        "leave some feedback on {medicine}",
+                        "leave feedback on {medicine}",
+                        "leave feedback for {name}",
+                        "leave some feedback for {name}",
+                        "leave a comment for {name}",
+                        "leave some comments for {name}",
+                        "leave some comments",
+                        "leave a comment",
+                        "leave some feedback",
+                        "leave feedback",
+                        "take notes",
+                        "take notes for {name} ",
+                        "take a note for {name} "
+                    ]
+                },
+                {
+                    "name": "reminders_set",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.FirstName",
+                            "samples": [
+                                "set a reminder for {name}",
+                                "{name}"
+                            ]
+                        },
+                        {
+                            "name": "medicine",
+                            "type": "medication",
+                            "samples": [
+                                "{medicine}",
+                                "For {medicine}"
+                            ]
+                        },
+                        {
+                            "name": "interval",
+                            "type": "AMAZON.SearchQuery",
+                            "samples": [
+                                "every {interval}"
+                            ]
+                        },
+                        {
+                            "name": "startdate",
+                            "type": "AMAZON.DATE",
+                            "samples": [
+                                "{startdate}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "remind {name} to take {medicine}",
+                        "create a reminder",
+                        "set a reminder",
+                        "remind {name} to take {medicine} starting from {startdate}",
+                        "set a reminder for {name}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "medication",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Acetaminophen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Acid"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Acyclovir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Adalimumab"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Albuterol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Alendronate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Allopurinol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Alprazolam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Amiodarone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Amitriptyline"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Amlodipine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Amoxicillin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Amphetamine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Apixaban"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Aripiprazole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Aspart"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Aspartate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Aspirin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Atenolol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Atorvastatin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Azithromycin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bacitracin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Baclofen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Beclomethasone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Benazepril"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Benzonatate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Besylate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bisulfate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bitartrate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brimonidine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bromide"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Budesonide"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bupropion"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Buspirone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Calcium"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Canagliflozin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Carbamazepine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Carbidopa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Carisoprodol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Carvedilol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Celecoxib"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cephalexin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cetirizine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chlorthalidone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cholecalciferol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ciprofloxacin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Citalopram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clavulanate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clindamycin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clobetasol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clonazepam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clonidine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clopidogrel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Conjugated"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cyanocobalamin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cyclobenzaprine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Desogestrel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Detemir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dexlansoprazole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dextroamphetamine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Diazepam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Diclofenac"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dicyclomine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Digoxin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dihydrochloride"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Diltiazem"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dimesylate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Divalproex"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Docusate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Donepezil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dorzolamide"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Doxazosin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Doxycycline"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Drospirenone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Duloxetine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Enalapril"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ergocalciferol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Escitalopram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Esomeprazole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Esters"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Estradiol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Estrogens"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ethinyl"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ethyl"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ezetimibe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Famotidine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fenofibrate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ferrous"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Finasteride"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fluconazole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fluoxetine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fluticasone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Folic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Formoterol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fumarate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Furosemide"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gabapentin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gemfibrozil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Glargine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Glimepiride"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Glipizide"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Glyburide"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Glycol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Guanfacine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Human"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hydralazine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hydrochloride"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hydrochlorothiazide"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hydrocodone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hydrocortisone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hydroxychloroquine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hydroxyzine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ibuprofen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Insulin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ipratropium"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Irbesartan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Isosorbide"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lamotrigine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lansoprazole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Latanoprost"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Levetiracetam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Levocetirizine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Levodopa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Levofloxacin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Levonorgestrel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Levothyroxine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Linagliptin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Liraglutide"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lisdexamfetamine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lisinopril"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lispro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Loratadine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lorazepam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Losartan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lovastatin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Magnesium"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Maleate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Meclizine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Medoxomil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Meloxicam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Memantine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mesylate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Metformin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Methocarbamol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Methotrexate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Methylcellulose"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Methylphenidate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Methylprednisolone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Metoprolol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Metronidazole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mirtazapine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mometasone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mononitrate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Montelukast"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Morphine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mupirocin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Naproxen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nebivolol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Neomycin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nifedipine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nitrofurantoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nitroglycerin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Norethindrone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Norgestimate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nortriptyline"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Olmesartan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Omega-3-acid"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Omeprazole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ondansetron"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oxalate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oxybutynin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oxycodone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pantoprazole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Paroxetine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Phosphate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pioglitazone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Polyethylene"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Polymyxin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Potassium"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pravastatin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Prednisolone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Prednisone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pregabalin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Progesterone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Promethazine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Propionate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Propranolol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Quetiapine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ramipril"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ranitidine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Risperidone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rivaroxaban"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ropinirole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rosuvastatin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Saccharate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Salmeterol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sertraline"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Simvastatin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sitagliptin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sodium"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Solifenacin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Spironolactone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Succinate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sulfamethoxazole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sulfate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sumatriptan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tamsulosin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tartrate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Temazepam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Terazosin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Testosterone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thyroid"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Timolol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tiotropium"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tizanidine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Topiramate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tramadol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Trazodone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Triamcinolone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Triamterene"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Trimethoprim"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Valacyclovir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Valsartan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Venlafaxine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Verapamil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Warfarin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Xinafoate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Zolpidem"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "notes_post",
+                    "confirmationRequired": true,
+                    "prompts": {
+                        "confirmation": "Confirm.Intent.1282377374251"
+                    },
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.FirstName",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1320055286240.37102344090"
+                            }
+                        },
+                        {
+                            "name": "medicine",
+                            "type": "medication",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1282377374251.295246760112"
+                            }
+                        },
+                        {
+                            "name": "text",
+                            "type": "AMAZON.SearchQuery",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1320055286240.944237420487"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "reminders_set",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.FirstName",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1527366342661.1384999260121"
+                            }
+                        },
+                        {
+                            "name": "medicine",
+                            "type": "medication",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1527366342661.325090126437"
+                            }
+                        },
+                        {
+                            "name": "interval",
+                            "type": "AMAZON.SearchQuery",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1527366342661.625837203767"
+                            }
+                        },
+                        {
+                            "name": "startdate",
+                            "type": "AMAZON.DATE",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.223232556997.474082483914"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1320055286240.37102344090",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Who do you want the comment to be for?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1320055286240.944237420487",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What's the comment?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1558117430713.538435966268",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Who's comments would you like to review?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1282377374251.295246760112",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Which medication are you leaving comments for?"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Intent.1282377374251",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Are you sure you want to leave this comment for {name} 's {medicine} ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1527366342661.1384999260121",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Who do you want to set a reminder for?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1527366342661.325090126437",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "For what medication?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1527366342661.625837203767",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "How often do you want to set the reminder?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.223232556997.474082483914",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "When do you want to start the reminders?"
+                    }
+                ]
+            }
+        ]
+    }
+}
