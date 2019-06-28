@@ -1,5 +1,5 @@
 # Capsure
-Accessible, cross-platform medication delivery tool that streamlines the interaction between patient and physician.
+Designed and implemented during EngHack 2019, Capsure is an accessible, cross-platform medication delivery tool that streamlines the interaction between patient and physician.
 
 ## What it does
 Capsure is an accessible, voice-based, cross-platform medical delivery tool to be used by patients with chronic illnesses to manage their medication intake and effects, to improve the quality of care they receive from medical professionals.
